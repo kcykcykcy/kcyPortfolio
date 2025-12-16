@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family:'BnviitLasik';
+    src:url('../fonts/BnviitLasik.woff') format('woff');
+}
+@font-face {
+    font-family:'KimjungchulGothicB';
+    src:url('../fonts/KimjungchulGothic-Bold.woff') format('woff');
+}
+@font-face {
+    font-family:'HambakSnow';
+    src:url('../fonts/HambakSnow.woff') format('woff');
+}
+
+/*
+	*** Pretendard ***
+*/
+@font-face {
+    font-family:'PretendardT';
+    src:url('../fonts/Pretendard-Thin.woff') format('woff');
+}
+@font-face {
+    font-family:'PretendardL';
+    src:url('../fonts/Pretendard-Light.woff') format('woff');
+}
+@font-face {
+    font-family:'PretendardR';
+    src:url('../fonts/Pretendard-Regular.woff') format('woff');
+}
+@font-face {
+    font-family:'PretendardM';
+    src:url('../fonts/Pretendard-Medium.woff') format('woff');
+}
+@font-face {
+    font-family:'PretendardB';
+    src:url('../fonts/Pretendard-Bold.woff') format('woff');
+}
+@font-face {
+    font-family:'PretendardBlk';
+    src:url('../fonts/Pretendard-Black.woff') format('woff');
+}
+@font-face {
+    font-family:'PretendardSB';
+    src:url('../fonts/Pretendard-SemiBold.woff') format('woff');
+}
+
+/*
+	*** NotoSerif ***
+*/
+@font-face {
+    font-family:'NotoSerifR';
+    src:url('../fonts/NotoSerifKR-Regular.woff') format('woff');
+}
+@font-face {
+    font-family:'NotoSerifM';
+    src:url('../fonts/NotoSerifKR-Medium.woff') format('woff');
+}
+@font-face {
+    font-family:'NotoSerifSB';
+    src:url('../fonts/NotoSerifKR-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family:'NotoSerifB';
+    src:url('../fonts/NotoSerifKR-Bold.woff') format('woff');
+}
+@font-face {
+    font-family:'NotoSerifEB';
+    src:url('../fonts/NotoSerifKR-ExtraBold.woff') format('woff');
+}
+@font-face {
+    font-family:'NotoSerifBlk';
+    src:url('../fonts/NotoSerifKR-Black.woff') format('woff');
+}

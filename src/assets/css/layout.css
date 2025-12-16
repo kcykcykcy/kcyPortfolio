@@ -1,0 +1,186 @@
+
+.fade-enter-active, .fade-leave-active {transition: opacity 0.1s ease-in-out;}
+.fade-enter-from, .fade-leave-to {opacity: 0;}
+.fade-enter-to, .fade-leave-from {opacity: 1;}
+
+.pageOutWrap {width: 100%; max-width: 1920px; margin: 0 auto;}
+.contentWrap {width: 100%; max-width: 1100px; margin: 0 auto; padding: 40px 0 60px; box-sizing: border-box;}
+
+.topLine {position: relative; display: flex; justify-content: center;padding: 20px 10px;}
+.topLine .mainTitle { font-family:'NotoSerifBlk'; font-size: 55px; line-height: 1.5;}
+.topLine .mainTop {position: absolute; font-family:'BnviitLasik'; font-size: 15px;}
+.topLine .mainTop.name {left: 10px;}
+.topLine .mainTop.email {right: 10px;}
+
+.myImg {position: relative; width: 100%; max-width: 500px; border: 8px solid #fff;}
+.myImg::after {content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(255, 255, 255, .1);}
+.myImg img {width: 100%; height: 100%; object-fit: contain;}
+
+.gnbWrap {display: flex; justify-content: center;}
+.gnbWrap a {display: block; font-family:'PretendardR'; font-size: 25px; padding: 20px 30px;}
+.gnbWrap a:hover {color: #BE3144;}
+.gnbWrap a.on {color: #BE3144; font-weight: bold;}
+
+.mainVisualCont {display: flex; justify-content: space-between; gap: 10px; align-items: center;}
+.mainVisualTitleWrap {margin-bottom: 100px;}
+.mainVisualTitle {font-family:'BnviitLasik'; font-size: 30px;}
+.mainVisualDesc {font-family:'PretendardR'; font-size: 21px; margin-top: 100px;}
+.mainVisualDesc .bold {font-family:'PretendardSB';}
+.mainVisualDesc .bold span {font-family:'HambakSnow'; font-size: 22px;}
+.myIntroduce .row {margin-bottom: 30px;}
+.myIntroduce .topItem {font-family:'BnviitLasik'; font-size: 17px; color: #BE3144; margin-bottom: 6px;}
+.myIntroduce .botItem {font-family:'PretendardM'; font-size: 19px;}
+
+
+/* 
+    *** footer
+*/
+.footer {background: #504B38; font-family:'PretendardR'; color: #fff; font-size: 17px; line-height: 1.5;}
+.footer .contentWrap {display: flex; justify-content: space-between; padding: 30px 0;}
+
+
+/* 
+    *** skill
+*/
+.skillWrap {display: flex; flex-wrap: wrap; gap: 10px;}
+.skillWrap li {width: calc((100% - 20px) / 3); padding: 20px 15px; border: 1px solid #ddd; border-radius: 15px; box-sizing: border-box;}
+.skillWrap .skillNum {display: inline-block; font-family: 'PretendardB'; font-size: 20px; margin-bottom: 20px;}
+.skillWrap .skillName {font-family: 'PretendardB'; font-size: 24px; color: #BE3144; margin-bottom: 10px;}
+.skillWrap .skillIcon {height: 80px; margin-bottom: 30px;}
+.skillWrap .skillIcon img {height: 100%;}
+.skillWrap .well {font-family: 'PretendardR';font-size: 19px; }
+
+
+/* 
+    *** career
+*/
+.careerWrap ul {margin-bottom: 100px;}
+.careerWrap ul:last-child {margin-bottom: 0px;}
+.careerWrap li {margin-bottom: 30px; border-bottom: 1px solid #ddd; padding-bottom: 20px;}
+.careerWrap li:last-child {margin-bottom: 0px;}
+.careerWrap li.careerTit {font-family:'PretendardB'; font-size: 27px; padding: 0; border: 0;}
+.careerWrap .careerName {font-family:'PretendardB'; font-size: 26px; color: #BE3144; margin-bottom: 20px;}
+.careerWrap .careerData {font-family:'PretendardR'; font-size: 20px; margin-bottom: 20px;}
+.careerWrap .careerDesc {font-family:'PretendardR'; font-size: 21px; margin-bottom: 20px;}
+
+/* 
+    *** fomanticUI
+*/
+.ui.basic {font-family:'PretendardR'; font-size: 19px; margin: 0 10px 10px 0;}
+.ui.button.resume {display: inline-block; font-family:'PretendardR'; font-size: 20px; color: #fff; cursor: pointer; background-color: #585152; padding: 10px 20px; }
+.ui.button.resume:hover {background-color: #e0e1e2; color: #585152; }
+.ui.ui.circular.buttons .button {font-family:'PretendardR'; font-size: 18px;}
+
+.ui.card {display: inline-block; width: auto; margin: 0 0 50px; }
+.ui.card>.content>.header {font-family:'PretendardB'; font-size: 22px !important;}
+.ui.card>.content {text-align: left;}
+.ui.card>.content>.description {font-family:'PretendardR'; font-size: 20px; line-height: 1.4;}
+.ui.card>.extra {font-family:'PretendardR'; font-size: 18px;}
+.ui.card .meta {font-family:'PretendardL';}
+.ui.card>.image {display: flex; align-items: center; justify-content: center; height: 350px;}
+.ui.card>.image img {position: relative;z-index: 2; width: auto; height: 100%;}
+.ui.card>.image img.backImg {position: absolute; z-index: 1; width: 100%; filter: blur(4px) brightness(85%); opacity: 0.7;}
+.ui.card>.extra {color: rgba(0, 0, 0, .7);}
+
+.contactPage .ui.buttons {display: block;}
+
+.popWrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 10000;
+}
+.popWrap.on {display: flex;}
+.popCont{
+    position: relative;
+    font-family:'PretendardR';
+    max-width: 1180px;
+    width: 70%;
+    padding: 50px 80px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.popCont div {position: relative; font-size: 20px; text-align: left; margin-bottom: 20px;}
+.popCont div:last-child {margin-bottom: 0px;}
+.popCont div::before {content: '·'; position: absolute; left: -10px; top: 50%; transform: translateY(-50%);}
+.popWrap .popCont .btnClosePopup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 35px;
+    color: #000;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .contentWrap {padding: 30px 15px;}
+  .footer .contentWrap {padding: 15px;}
+
+  .skillWrap .well {font-size: 18px;}
+  .skillWrap .skillIcon {height: 70px;}
+}
+
+@media screen and (max-width: 1024px) {
+    .skillWrap li {width: 100%; padding: 15px 10px;}
+}
+
+@media screen and (max-width: 768px) {
+    .topLine .mainTitle {font-size: 40px;}
+    .gnbWrap {justify-content: space-around;}
+    .gnbWrap a {font-size: 21px; padding: 10px;}
+
+    .popCont {width: 90%; padding: 30px 25px;}
+    .popWrap .popCont .btnClosePopup {font-size: 25px;}
+    .popCont div {font-size: 17px; margin-bottom: 10px;}
+
+    .mainVisualTitleWrap {margin-bottom: 50px;}
+    .mainVisualCont {flex-direction: column-reverse;}
+    .mainVisualDesc {font-size: 18px; margin-top: 50px;}
+    .mainVisualTitle {font-size: 22px;}
+    .myIntroduce .row {margin-bottom: 20px;}
+    .myIntroduce .topItem {font-size: 16px;}
+    .myIntroduce .botItem {font-size: 17px;}
+    .ui.ui.circular.buttons .button {font-size: 16px;}
+
+    /* 
+        *** skill
+    */
+    .skillWrap {flex-wrap: wrap;}
+    .skillWrap .skillNum {font-size: 18px; margin-bottom: 10px;}
+    .skillWrap .skillName {font-size: 20px; margin-bottom: 15px;}
+    .skillWrap .well {font-size: 17px;}
+    .skillWrap .skillIcon {height: 50px; margin-bottom: 15px;}
+
+
+    /* 
+        *** career
+    */
+    .careerWrap li {padding-bottom: 10px;}
+    .careerWrap li.careerTit {font-size: 22px;}
+    .careerWrap .careerName {font-size: 20px; margin-bottom: 15px;}
+    .careerWrap .careerData {font-size: 17px; margin-bottom: 12px;}
+    .careerWrap .careerDesc {font-size: 18px; letter-spacing: -.4px;margin-bottom: 15px;}
+
+
+    /* 
+        *** fomanticUI
+    */
+    .ui.basic {font-size: 17px; padding: 10px 20px;}
+    .ui.card>.image {height: 250px;}
+    .ui.card>.content>.header {font-size: 20px !important;}
+    .ui.card>.content>.description {font-size: 17px;}
+
+    /* 
+        *** footer
+    */
+    .footer {font-size: 15px;}
+    .footer .contentWrap{flex-direction: column;gap: 10px;}
+    .ui.card>.extra {font-size: 17px;}
+}
+
