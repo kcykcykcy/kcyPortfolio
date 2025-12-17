@@ -26,7 +26,7 @@ import axios from 'axios'
 const skillList = ref([])
 onMounted(async () => {
   try {
-    const res = await axios.get('/data/skillData.json')
+    const res = await axios.get('data/skillData.json')
     skillList.value = res.data
   } catch (error) {
    console.error('Error loading skill data:', error);

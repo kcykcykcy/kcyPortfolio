@@ -21,7 +21,7 @@
                 <div class="row">
                     <div class="topItem">Career</div>
                     <div class="botItem">
-                        소프트엠 프론트엔드 개발 및 퍼블리싱(주임)<br class="showInlineM"> / 2022.07.-2025.11.
+                        소프트엠 프론트엔드 개발 및 퍼블리싱(주임)<br class="showInlineM"> / 2022.07.-2025.10.
                     </div>
                 </div>
                 <div class="row">

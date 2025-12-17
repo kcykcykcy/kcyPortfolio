@@ -54,7 +54,7 @@ import axios from 'axios'
 const careerGroup = ref([])
 onMounted(async () => {
   try {
-    const res = await axios.get('/data/careerData.json')
+    const res = await axios.get('data/careerData.json')
     careerGroup.value = res.data
   } catch (error) {
     console.error('에러:', error)
