@@ -103,13 +103,6 @@
     "title": "[웹사이트]",
     "list": [
       {
-        "careerName": "밴스모자이너의원",
-        "date": "2025. 11",
-        "desc": "밴스모자이너의원 페이지 리뉴얼 퍼블리싱",
-        "link": "https://kcy9590.mycafe24.com/vands/",
-        "lev": "100%"
-      },
-      {
         "careerName": "유스필",
         "date": "2022. 09",
         "desc": "유스필 랜딩페이지 퍼블리싱",
@@ -149,6 +142,13 @@
         "date": "2025. 02",
         "desc": "미희의원 웹사이트 퍼블리싱",
         "link": "http://test.softm.co.kr/mihee/",
+        "lev": "100%"
+      },
+      {
+        "careerName": "밴스모자이너의원",
+        "date": "2025. 11",
+        "desc": "밴스모자이너의원 페이지 리뉴얼 퍼블리싱",
+        "link": "https://kcy9590.mycafe24.com/vands/",
         "lev": "100%"
       }
     ]
