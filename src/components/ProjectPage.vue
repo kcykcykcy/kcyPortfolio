@@ -53,8 +53,17 @@ import axios from 'axios'
 
 const careerGroup = ref([])
 onMounted(async () => {
+
+    const params = new URLSearchParams(window.location.search);
+    let type = params.get("type");
+    console.log(type)
   try {
-    const res = await axios.get('data/careerData.json')
+      let res;
+      if(type == "resume"){
+          res = await axios.get('data/careerData_resume.json')
+      }else{
+          res = await axios.get('data/careerData.json')
+      }
     careerGroup.value = res.data
   } catch (error) {
     console.error('에러:', error)

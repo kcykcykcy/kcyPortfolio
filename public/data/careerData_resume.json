@@ -1,5 +1,31 @@
 [
   {
+    "title": "[Vue.js 작업]",
+    "list": [
+      {
+        "careerName": "바노바기의원 피부타입 설문 페이지",
+        "date": "2025. 11",
+        "desc": "바노바기의원 설문 페이지 vue.js 퍼블리싱 및 개발 작업",
+        "link": "https://kcy9590.mycafe24.com/banobagiSkinType",
+        "lev": "100%"
+      },
+      {
+        "careerName": "연습용 CRM(Customer Relationship Management / 고객관리시스템)",
+        "date": "2025. 11",
+        "desc": "vue.js로 제작된 회사 자체 CRM 연습 (보안상 아이디 및 패스워드를 공유할 수 없어 면접 시 보여드리겠습니다.)",
+        "link": "http://kcy9590.mycafe24.com/CRMWarmUp/",
+        "lev": "50%"
+      },
+      {
+        "careerName": "웅진씽크빅 문해력 결과지",
+        "date": "2024. 12 - 2025. 01",
+        "desc": "Vue.js를 이용한 데이터 바인딩 개발 작업",
+        "link": "https://kcy9590.mycafe24.com/work/literacy/result_daily_m/",
+        "lev": "100%"
+      }
+    ]
+  },
+  {
     "title": "[이러닝(E-Learning)]",
     "list": [
       {
@@ -64,13 +90,6 @@
         "lev": "100%"
       },
       {
-        "careerName": "웅진씽크빅 문해력 결과지",
-        "date": "2024. 12 - 2025. 01",
-        "desc": "Vue.js를 이용한 데이터 바인딩 개발 작업",
-        "link": "https://kcy9590.mycafe24.com/work/literacy/result_daily_m/",
-        "lev": "100%"
-      },
-      {
         "careerName": "미래엔 함께수학",
         "date": "2024. 12",
         "desc": "미래엔 초등 수학 페이지 개발 작업",
@@ -123,6 +142,13 @@
         "date": "2025. 02",
         "desc": "미희의원 웹사이트 퍼블리싱",
         "link": "http://test.softm.co.kr/mihee/",
+        "lev": "100%"
+      },
+      {
+        "careerName": "밴스모자이너의원",
+        "date": "2025. 11",
+        "desc": "밴스모자이너의원 페이지 리뉴얼 퍼블리싱",
+        "link": "https://kcy9590.mycafe24.com/vands/",
         "lev": "100%"
       }
     ]
