@@ -103,38 +103,10 @@
     "title": "[웹사이트]",
     "list": [
       {
-        "careerName": "유스필",
-        "date": "2022. 09",
-        "desc": "유스필 랜딩페이지 퍼블리싱",
-        "link": "https://www.youthfill.co.kr/",
-        "lev": "100%"
-      },
-      {
-        "careerName": "고운몸",
-        "date": "2022. 11 - 2022. 12",
-        "desc": "고운몸의원 웹사이트 퍼블리싱",
-        "link": "https://www.gowoonmom.co.kr/",
-        "lev": "50%"
-      },      
-      {
-        "careerName": "리치닥",
-        "date": "2023. 07",
-        "desc": "리치닥 기업 웹사이트 퍼블리싱",
-        "link": "https://www.richdoc.co.kr/web/sub/domesticMarketing",
-        "lev": "50%"
-      },
-      {
-        "careerName": "알에프바이오",
-        "date": "2023. 12",
-        "desc": "알에프바이오 기업 웹사이트 퍼블리싱",
-        "link": "https://www.rfbio.co.kr/",
-        "lev": "100%"
-      },
-       {
-        "careerName": "라디쥬",
-        "date": "2024.07",
-        "desc": "라디쥬의원 웹사이트 퍼블리싱",
-        "link": "http://test.softm.co.kr/radiju/",
+        "careerName": "밴스모자이너의원",
+        "date": "2025. 11",
+        "desc": "밴스모자이너의원 페이지 리뉴얼 퍼블리싱",
+        "link": "https://kcy9590.mycafe24.com/vands/",
         "lev": "100%"
       },
       {
@@ -145,10 +117,38 @@
         "lev": "100%"
       },
       {
-        "careerName": "밴스모자이너의원",
-        "date": "2025. 11",
-        "desc": "밴스모자이너의원 페이지 리뉴얼 퍼블리싱",
-        "link": "https://kcy9590.mycafe24.com/vands/",
+        "careerName": "라디쥬",
+        "date": "2024.07",
+        "desc": "라디쥬의원 웹사이트 퍼블리싱",
+        "link": "http://test.softm.co.kr/radiju/",
+        "lev": "100%"
+      },
+      {
+        "careerName": "알에프바이오",
+        "date": "2023. 12",
+        "desc": "알에프바이오 기업 웹사이트 퍼블리싱",
+        "link": "https://www.rfbio.co.kr/",
+        "lev": "100%"
+      },
+      {
+        "careerName": "리치닥",
+        "date": "2023. 07",
+        "desc": "리치닥 기업 웹사이트 퍼블리싱",
+        "link": "https://www.richdoc.co.kr/web/sub/domesticMarketing",
+        "lev": "50%"
+      },
+      {
+        "careerName": "고운몸",
+        "date": "2022. 11 - 2022. 12",
+        "desc": "고운몸의원 웹사이트 퍼블리싱",
+        "link": "https://www.gowoonmom.co.kr/",
+        "lev": "50%"
+      },
+      {
+        "careerName": "유스필",
+        "date": "2022. 09",
+        "desc": "유스필 랜딩페이지 퍼블리싱",
+        "link": "https://www.youthfill.co.kr/",
         "lev": "100%"
       }
     ]

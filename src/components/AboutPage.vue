@@ -27,6 +27,7 @@
                 <div class="row">
                     <div class="topItem">Education</div>
                     <div class="botItem">
+                        · 뷰(Vue.js) 기초 & 활용반 수료 / 2025.04.<br>
                         · 하이미디어컴퓨터학원 안양점 웹퍼블리셔 양성반 수료 / 2022.06.<br>
                         · 명지대학교 디지털미디어학과 졸업 / 2019.08.<br>
                         · 안산고등학교 졸업 / 2014.02.

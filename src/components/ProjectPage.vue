@@ -56,7 +56,7 @@ onMounted(async () => {
 
     const params = new URLSearchParams(window.location.search);
     let type = params.get("type");
-    console.log(type)
+    //console.log(type)
   try {
       let res;
       if(type == "resume"){
