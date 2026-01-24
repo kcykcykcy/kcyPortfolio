@@ -161,6 +161,7 @@
     /* 
         *** career
     */
+    .careerWrap ul {margin-bottom: 50px;}
     .careerWrap li {padding-bottom: 10px;}
     .careerWrap li.careerTit {font-size: 22px;}
     .careerWrap .careerName {font-size: 20px; margin-bottom: 15px;}
