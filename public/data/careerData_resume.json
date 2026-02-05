@@ -1,32 +1,36 @@
 [
   {
-    "title": "[React & Vue.js]",
+    "title": "[SPA 프레임워크]",
     "list": [
       {
-        "careerName": "분양라인 댓글이벤트 페이지 (작업중)",
+        "careerName": "분양라인 댓글이벤트 페이지",
         "date": "2026. 01",
-        "desc": "React로 제작한 API 연동을 통한 실시간 댓글 등록 및 수정 기능 구현",
-        "link": "https://kcy9590.mycafe24.com/react/",
+        "framework": "React",
+        "desc": "리액트쿼리 기반 API 연동 및 실시간 댓글 조회/등록/수정 기능 구현 ★http로 확인 가능합니다★",
+        "link": "http://kcy9590.mycafe24.com/react/",
         "lev": "100%"
       },
       {
         "careerName": "바노바기의원 피부타입 설문 페이지",
         "date": "2025. 11",
-        "desc": "Vue.js로 제작한 글로벌 고객 대상 피부타입 및 진단 페이지 개발",
+        "framework": "Vue.js",
+        "desc": "글로벌 고객 대상 피부타입 및 진단 페이지 개발",
         "link": "https://kcy9590.mycafe24.com/banobagiSkinType",
         "lev": "100%"
       },
       {
         "careerName": "CRM(Customer Relationship Management / 고객관리시스템) 프로토타입",
         "date": "2025. 11",
-        "desc": "Vue.js로 제작한 회사 자체 CRM 프로토타입 (사내 보안 프로젝트로, 면접 시 공유드리겠습니다.)",
+        "framework": "Vue.js",
+        "desc": "회사 자체 CRM 프로토타입 (사내 보안 프로젝트로, 면접 시 공유드리겠습니다.)",
         "link": "http://kcy9590.mycafe24.com/CRMWarmUp/",
         "lev": "50%"
       },
       {
         "careerName": "웅진씽크빅 문해력 결과지",
         "date": "2024. 12 - 2025. 01",
-        "desc": "Vue.js 기반의 동적 데이터 바인딩 및 결과 레포트 UI 개발",
+        "framework": "Vue.js",
+        "desc": "동적 데이터 바인딩 및 결과 레포트 UI 개발",
         "link": "https://kcy9590.mycafe24.com/work/literacy/result_daily_m/",
         "lev": "100%"
       }
@@ -88,10 +92,11 @@
         "lev": "50%"
       },
       {
-        "careerName": "웅진씽크빅 문해력 결과지",
+        "careerName": "웅진씽크빅 문해력 결과지(daily & monthly)",
         "date": "2024. 12 - 2025. 01",
-        "desc": "웅진씽크빅 문해력 결과지 개발 작업(jQuery)",
+        "desc": "chart.js 등을 이용한 결과지 개발 작업",
         "link": "https://kcy9590.mycafe24.com/work/literacy/result_daily/",
+        "link2": "https://kcy9590.mycafe24.com/work/literacy/result_monthly/",
         "lev": "100%"
       },
       {

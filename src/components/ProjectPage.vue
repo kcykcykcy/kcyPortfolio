@@ -8,38 +8,29 @@
           <ul v-for="(group, groupIdx) in careerGroup" :key="groupIdx">
             <li class="careerTit">{{ group.title }}</li>
             <li v-for="(item, listIdx) in group.list" :key="listIdx">
-              <div class="careerName">{{ item.careerName }}</div>
-              <div class="careerData">({{ item.date }})</div>
-              <div class="careerDesc">· 작업 내용 :<br class="showInlineM"> {{ item.desc }}</div>
-              <div class="careerDesc">· 기여도 : {{ item.lev }}</div>
-              <a class="ui basic button" :href="item.link" target="_blank">
-                페이지 바로가기 <i class="xi-share"></i>
-              </a>
-              <template v-if="item.link2">
-                <a class="ui basic button" :href="item.link2" target="_blank">
+                <div class="careerName">{{ item.careerName }}</div>
+                <div class="careerData">({{ item.date }})</div>
+                <div class="careerDesc" v-if="item.framework">· 프레임워크 :<br class="showInlineM"> {{ item.framework }}</div>
+                <div class="careerDesc">· 작업 내용 :<br class="showInlineM"> {{ item.desc }}</div>
+                <div class="careerDesc">· 기여도 : {{ item.lev }}</div>
+                <a class="ui basic button" :href="item.link" target="_blank">
+                    페이지 바로가기 <i class="xi-share"></i>
+                </a>
+                <a class="ui basic button" :href="item.link2" target="_blank" v-if="item.link2">
                   페이지 바로가기 <i class="xi-share"></i>
                 </a>
-              </template>
-              <template v-if="item.link3">
-                <a class="ui basic button" :href="item.link3" target="_blank">
+                <a class="ui basic button" :href="item.link3" target="_blank" v-if="item.link3">
                   페이지 바로가기 <i class="xi-share"></i>
                 </a>
-              </template>
-              <template v-if="item.link4">
-                <a class="ui basic button" :href="item.link4" target="_blank">
+                <a class="ui basic button" :href="item.link4" target="_blank" v-if="item.link4">
                   페이지 바로가기 <i class="xi-share"></i>
                 </a>
-              </template>
-              <template v-if="item.link5">
-                <a class="ui basic button" :href="item.link5" target="_blank">
+                <a class="ui basic button" :href="item.link5" target="_blank" v-if="item.link5">
                   페이지 바로가기 <i class="xi-share"></i>
                 </a>
-              </template>
-              <template v-if="item.link6">
-                <a class="ui basic button" :href="item.link6" target="_blank">
+                <a class="ui basic button" :href="item.link6" target="_blank" v-if="item.link6">
                   페이지 바로가기 <i class="xi-share"></i>
                 </a>
-              </template>
             </li>
           </ul>
        </div>
